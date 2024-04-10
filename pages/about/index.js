@@ -164,7 +164,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left xl-py-32">
+    <div className="h-full bg-primary/30 text-center xl:text-left xl-py-32">
       <Circles />
       {/* avatar img */}
       {/*   <motion.div
