@@ -32,13 +32,12 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Front-end Developer with a passion for crafting captivating
-              digital experiences. With expertise in JavaScript, React, Next and
-              more, I specialize in bringing your visions to life online.
-              Whether it's building sleek websites, intuitive web applications,
-              or interactive user interfaces, I'm here to turn your ideas into
-              stunning realities. Let's collaborate and create something
-              extraordinary together!
+              From dynamic Next.js applications to responsive WordPress
+              websites, each project represents a unique challenge embraced with
+              passion and expertise. Whether it's optimizing performance,
+              implementing innovative features, or ensuring seamless user
+              experiences, I'm committed to delivering excellence in every
+              endeavor.
             </motion.p>
           </div>
           {/* slider */}

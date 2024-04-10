@@ -20,20 +20,20 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
-          path: "/price-wise.png",
+          title: "refine-dashboard",
+          path: "/refine-dashboard.png",
         },
         {
-          title: "title",
-          path: "/price-wise.png",
-        },
-        {
-          title: "title",
-          path: "/price-wise.png",
-        },
-        {
-          title: "title",
+          title: "car-showcase",
           path: "/car-showcase.png",
+        },
+        {
+          title: "core",
+          path: "/core.png",
+        },
+        {
+          title: "ecommer",
+          path: "/ecommer.png",
         },
       ],
     },
@@ -44,16 +44,16 @@ const workSlides = {
           path: "/ai-sumz.png",
         },
         {
-          title: "car-showcase",
-          path: "/car-showcase.png",
+          title: "gim",
+          path: "/gim.png",
         },
         {
           title: "price-wise",
           path: "/price-wise.png",
         },
         {
-          title: "youtube-clone",
-          path: "/price-wise.png",
+          title: "ninos-ia",
+          path: "/ninos-ia.png",
         },
       ],
     },
