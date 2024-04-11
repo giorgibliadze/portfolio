@@ -61,13 +61,13 @@ const Home = () => {
       {/* image */}
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
         {/* bg img */}
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
-        {/* particles */}
-        <div>
-          <ParticlesContainer />
-        </div>
-        {/* avatar img */}
-        {/*  <motion.div
+        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
+          {/* particles */}
+          <div>
+            <ParticlesContainer />
+          </div>
+          {/* avatar img */}
+          {/*  <motion.div
           variants={fadeIn("up", 0.5)}
           initial="hidden"
           animate="show"
@@ -77,6 +77,7 @@ const Home = () => {
         >
           <Avatar />
         </motion.div> */}
+        </div>
       </div>
     </div>
   );

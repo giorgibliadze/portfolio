@@ -14,35 +14,16 @@ const sora = Sora({
 });
 
 const Layout = ({ children }) => {
-  const [height, setHeight] = useState("100vh");
-
-  useEffect(() => {
-    const handleResize = () => {
-      setHeight(`${window.innerHeight}px`);
-    };
-
-    handleResize();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
     <div
-      style={{ height: height }}
-      className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
+      className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative overflow-y-auto`}
     >
       <Analytics />
       <SpeedInsights />
       <TopLeftImg />
       <Nav />
       <Header />
-      <div style={{ overflowY: "auto", maxHeight: "calc(100% - 80px)" }}>
-        {children}
-      </div>
+      {children}
     </div>
   );
 };
