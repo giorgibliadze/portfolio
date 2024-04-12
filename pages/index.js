@@ -15,15 +15,15 @@ const Home = () => {
   return (
     <div className="bg-primary/60  h-full">
       {/* text */}
-      <div className="w-full h-full xl:h-[700px] xxl:h-[900px]  xll:h-[865px] bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:text-left h-full container mx-auto">
+      <div className="w-full h-full  xxl:h-[900px]  xll:h-[865px] bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+        <div className="text-center flex flex-col justify-center xl:text-left h-full container mx-auto ]">
           {/* title */}
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 mt-30px"
+            className="h1 xl:mt-[70px]"
           >
             Transforming Ideas <br /> Into
             <span className="text-accent">Digital Reality</span>
@@ -55,14 +55,15 @@ const Home = () => {
             <ProjectBtn />
           </motion.div>
         </div>
-      </div>
-      {/* image */}
-      <div className="w-[1200px] h-full absolute right-0 bottom-0">
-        {/* bg img */}
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
-        {/* particles */}
-        <div>
-          <ParticlesContainer />
+
+        {/* image */}
+        <div className="w-[1200px] h-full absolute right-0 bottom-0">
+          {/* bg img */}
+          <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
+          {/* particles */}
+          <div>
+            <ParticlesContainer />
+          </div>
         </div>
       </div>
     </div>

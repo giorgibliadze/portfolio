@@ -118,7 +118,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 text-center xl:text-left xl-py-32">
+    <div className="h-full xxl:h-[900px]  xll:h-[970px]  bg-primary/30 text-center xl:text-left xl-py-32">
       <Circles />
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row">
         {/* text */}
