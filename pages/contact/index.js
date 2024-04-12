@@ -10,7 +10,7 @@ import { fadeIn } from "../../variants";
 
 const Contact = () => {
   return (
-    <div className="h-full bg-primary/30">
+    <div className="h-full lg:h-[700px] xxl:h-[930px]  xll:h-[970px] bg-primary/30">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
         {/* text & form */}
         <div className="flex flex-col w-full max-w-[700px]">
