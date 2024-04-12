@@ -101,52 +101,6 @@ const aboutData = [
       },
     ],
   },
-  /* {
-    title: "projects",
-    info: [
-      {
-        title: "Summarize",
-        stage: "AI Article Summarizer App.",
-        githubLink: "https://github.com/giorgibliadze/Summarize",
-      },
-      {
-        title: "Ecommer",
-        stage: "Responsive React JS application, eCommerce.",
-        githubLink: "https://github.com/giorgibliadze/Ecommer",
-      },
-      {
-        title: "gym_exercises",
-        stage: "Responsive React JS, a professional Fitness Exercises App.",
-        githubLink: "https://github.com/giorgibliadze/gym_exercises",
-      },
-      {
-        title: "Car_showcase",
-        stage:
-          "API requests, handle errors, use pagination, search, apply filters, and fetch data from servers.",
-        githubLink: "https://github.com/giorgibliadze/car_showcase",
-        appLink: "https://car-showcase-gamma-khaki.vercel.app/",
-      },
-      {
-        title: "Pricewise",
-        stage:
-          "Web scraping and build a Next.js 14 eCommerce price tracker. Data scraping, cron jobs, sending emails, deployment.",
-        githubLink: "https://github.com/giorgibliadze/PriceWise",
-        appLink: "https://price-wise-alpha.vercel.app/",
-      },
-      {
-        title: "Refine_dashboard",
-        stage:
-          "Fully functional full-stack MERN dashboard application with complete CRUD functionalities, authentication, pagination, sorting, filtering.",
-        githubLink: "https://github.com/giorgibliadze/refine-dashboard",
-      },
-      {
-        title: "Youtube_clone",
-        stage:
-          "Responsive React JS application consisting of stunning video sections, custom categories, channel pages, and, most importantly, you can play videos straight from your YouTube Clone App.",
-        githubLink: "https://github.com/giorgibliadze/youtube_clone",
-      },
-    ],
-  }, */
 ];
 
 //components
@@ -166,16 +120,6 @@ const About = () => {
   return (
     <div className="h-full bg-primary/30 text-center xl:text-left xl-py-32">
       <Circles />
-      {/* avatar img */}
-      {/*   <motion.div
-        variants={fadeIn("right", 0.2)}
-        initial="hidden"
-        animate="show"
-        exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[370px]"
-      >
-        <Avatar />
-      </motion.div> */}
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row">
         {/* text */}
         <div className="flex-1 flex flex-col justify-center xl:pt-40">

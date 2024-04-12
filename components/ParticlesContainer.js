@@ -83,7 +83,7 @@ const ParticlesContainer = () => {
             type: "circle",
           },
           size: {
-            value: { min: 2, max: 5 },
+            value: { min: 1, max: 5 },
           },
         },
         detectRetina: true,
