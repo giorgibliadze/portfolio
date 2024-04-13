@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // next image
 import Image from "next/image";
 
@@ -36,10 +37,12 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Transforming Ideas into Digital Reality. As a passionate front-end
+            developer, I specialize in crafting visually stunning and
+            user-friendly websites. With expertise in HTML, CSS, JavaScript,
+            React, and Next I bring ideas to life, ensuring they resonate with
+            your audience and leave a lasting impression. Let's create something
+            extraordinary together.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">

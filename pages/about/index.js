@@ -14,7 +14,7 @@ import {
 import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import { DiGoogleAnalytics } from "react-icons/di";
 import { PiMicrosoftExcelLogoFill } from "react-icons/pi";
-import { SiNextdotjs, SiFramer, SiPowerbi } from "react-icons/si";
+import { SiNextdotjs, SiFramer, SiPowerbi, SiMui } from "react-icons/si";
 
 //  data
 const aboutData = [
@@ -30,14 +30,13 @@ const aboutData = [
           <FaReact />,
           <SiNextdotjs />,
           <SiFramer />,
-          <SiTailwindcss />,
           <SiTypescript />,
           <FaWordpress />,
         ],
       },
       {
-        title: "UI/UX Design",
-        icons: [<FaFigma />],
+        title: "UI/UX",
+        icons: [<FaFigma />, <SiTailwindcss />, <SiMui />],
       },
       {
         title: "Analytics",
