@@ -122,13 +122,13 @@ const About = () => {
       <Circles />
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row">
         {/* text */}
-        <div className="flex-1 flex flex-col justify-center xl:pt-40">
+        <div className="flex-1 flex flex-col justify-center xxl:pt-10 md:pt-[60px]">
           <motion.h2
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2"
+            className="h2 mt-[100px] xl:mt-[0px]"
           >
             Crafting <span className="text-accent">digital</span> wonders from
             imagination to reality.
